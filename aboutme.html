@@ -5,7 +5,26 @@
     <link rel="icon" href="heart.ico" sizes="16x16" type="image/ico"> 
   </head>
   <center><img src="IMG_0585.PNG" style="width:1028px;height:150px"></center>
-  <button>Change color</button>
+  <div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+</div>
+
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
   <body style="background-color:#ffe6ea;">
     <h1 style="color:#9494b8; font-family:monospace">ABOUT ME</h1>
       <p style="color:#9494b8; font-family:courier">Hi! I'm Joyce and I am going to be a senior this year!</p>
